@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bogers Legal BV - Advocaat en Interim Consultant in Utrecht. Specialiseert zich in contract drafting, litigation en juridische interim management. Neem contact op voor professionele juridische ondersteuning.">
+    <title>Bogers Legal - Advocaat en Interim Consultant</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.png">
+
+    
+    <!-- External CSS Files -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-red': '#D11027', // Approximate match for the red in the image
+                        'brand-dark': '#0a0a0a',
+                        'brand-gray': '#737373',
+                    },
+                    fontFamily: {
+                        serif: ['"Libre Baskerville"', 'Georgia', 'serif'],
+                        poppins: ['"Poppins"', 'sans-serif'],
+                    },
+                    backgroundImage: {
+                        'city-gradient': 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%)',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-white text-brand-gray font-serif antialiased">
+
+    <!-- Navigation -->
+    <nav class="bg-black text-white py-4 px-6 fix w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Logo Area -->
+            <div class="flex md:flex-row items-baseline gap-1 md:gap-4">
+                <a href="#" class="text-xl md:text-1xl font-serif font-bold tracking-tight mr-3">BOGERS<br> Legal BV</a>
+                <span class="text-xs md:text-sm text-brand-gray border-l border-gray-600 pl-4">
+                    Advocaat <br> Interim consultant
+                </span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8 text-sm tracking-wide">
+                <a href="#" class="hover:text-brand-red transition-colors uppercase">Home</a>
+                <a href="#about" class="hover:text-brand-red transition-colors uppercase">Over</a>
+                <a href="#contact" class="bg-brand-red hover:bg-red-700 text-white px-5 py-2 font-bold transition-colors capitalize">
+                    Neem contact op
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger -->
+            <button id="mobile-menu-btn" class="md:hidden text-2xl focus:outline-none self-center">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-gray-800 mt-4 pb-4">
+            <div class="flex flex-col p-4 gap-4 text-center">
+                <a href="#" class="hover:text-brand-red uppercase">Home</a>
+                <a href="#about" class="hover:text-brand-red uppercase">Over</a>
+                <a href="#contact" class="bg-brand-red text-white py-3 font-bold w-full block capitalize">Neem contact op</a>
+          
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-24 px-4 md:pt-32 overflow-hidden h-[400px] sm:h-[700px] lg:h-[1000px] flex items-center" style="background-image: url('./image/header.webp'); background-size: cover; background-position: center;">
+
+        <div class="max-w-7xl mx-auto w-full px-4 sm:px-0 grid grid-cols-1 gap-6 sm:gap-8 items-center relative z-10">
+            <!-- Text Content -->
+            <div class="text-white pt-10 sm:pt-0">
+                <h1 class="font-bold font-poppins text-[1.3rem] sm:text-5xl md:text-6xl lg:text-8xl mb-3 sm:mb-4 leading-tight">Do.</h1>
+                <h2 class="font-bold font-poppins text-[1.3rem] sm:text-4xl md:text-5xl lg:text-8xl mb-3 sm:mb-4 leading-tight">Or do not.</h2>
+                <h2 class="font-bold font-poppins text-[1.3rem] sm:text-4xl md:text-5xl lg:text-8xl mb-6 sm:mb-8 leading-tight">There is no try.</h2>
+                <p class="text-lg sm:text-xl md:text-2xl font-poppins italic">- Yoda</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content / About Section -->
+    <main id="about" class="bg-white py-16 md:py-24 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-3 gap-8 text-brand-gray leading-relaxed text-base md:text-lg">
+            
+            <!-- Column 1 -->
+            <div class="relative fade-in-section">
+                <!-- Red Slash Background Decoration -->
+                <div class="absolute -top-10 -left-4 w-5 h-full bg-brand-red diagonal-bg -z-10 hidden sm:block"></div>
+                
+                <p class="text-black">
+                    Na jarenlang aan een advocatenkantoor met een commerciële praktijk te zijn verbonden werk ik sinds 2020 solo. 
+                    Geen kantoororganisatie, geen overhead. Wel: flexibel zonder poeha. 
+                    Sindsdien ben ik werkzaam op interim-projecten in zowel het bedrijfsleven als de advocatuur.
+                </p>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="relative fade-in-section" style="transition-delay: 200ms;">
+                <p class="mb-6 text-black leading-relaxed">
+                    In mijn rol als Legal Counsel tussen 1998 -2002 en sinds 2020 heb ik ruime ervaring in het opzetten van processen, 
+                    het managen van organisatiestructuren en begeleiding in teamverband binnen een commerciële organisatie.
+                </p>
+                <p class="text-black leading-relaxed">
+                    Als advocaat in de periode 2002-heden heb ik ruime ervaring opgedaan in het voeren van onderhandelingen, 
+                    contract drafting & litigation.
+                </p>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="relative fade-in-section" style="transition-delay: 400ms;">
+                <!-- Red Slash Background Decoration -->
+                <div class="absolute -top-10 right-0 w-5 h-full bg-brand-red diagonal-bg -z-10 hidden sm:block"></div>
+                <p class="text-black leading-relaxed">
+                    Door jarenlange ervaring weet ik complexe kwesties op efficiënte wijze te analyseren, 
+                    de succesvolle strategie te bepalen en een team te enthousiasmeren om samen het geformuleerde doel te bereiken.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Cityscape Divider -->
+    <div class="w-full relative ">
+        <!-- Placeholder for cityscape silhouette. -->
+        <img 
+            src="image/about.webp" 
+            alt="Utrecht Skyline" 
+            class="w-full h-full object-cover object-bottom filter grayscale contrast-125"
+        >
+        <!-- Fade to black at bottom -->
+        <div class="absolute inset-0"></div>
+    </div>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="bg-black text-white pt-12 pb-8 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-4 md:px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+                
+                <!-- Left Footer: Contact Info -->
+                <div class="fade-in-section">
+                    <div class="flex items-start">
+                        <!-- Red Slash -->
+                        <div class="text-brand-red text-[12rem] md:text-8xl font-light mr-1 leading-none select-none sm:text-8xl">/</div>
+                        
+                        <div class="pt-2">
+                            <a href="mailto:tom@bogers.legal" class="block text-2xl md:text-3xl font-serif hover:text-brand-red transition-colors mb-2">
+                                tom@bogers.legal
+                            </a>
+                            <a href="tel:+31653423641" class="block text-xl md:text-2xl font-serif hover:text-brand-red transition-colors">
+                                +31 6 53423641
+                            </a>
+                        <div class="mb-8 md:hidden">
+                        <h3 class="text-2xl font-serif mb-1">Bogers Legal BV</h3>
+                        <p class="text-xl mb-1">KvK 76706761</p>
+                        <p class="text-xl">Utrecht</p>
+                    </div>
+                            <a href="#" class="text-3xl hover:text-brand-red transition-colors inline-block mt-2">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            
+                        <div class="flex md:flex-row sm:flex-row items-start sm:items-center mt-4 text-brand-red">
+                            <i class="fas fa-map-marker-alt mb-2 sm:mb-0 sm:mr-3 text-2xl sm:text-3xl"></i>
+                            <div class="text-brand-gray ml-3">
+                                <p class="font-poppins text-base text-brand-gray">Maliesingel 2</p>
+                                <p class="font-poppins text-base text-brand-gray">3581 BA Utrecht</p>
+                            </div>
+                           
+                        </div>
+                         <p class="mt-4 font-poppins text-base text-brand-gray hidden md:block">&copy; 2025 Bogers Legal</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Mobile Address (Shown below contacts on mobile, hidden on desktop) -->
+                    <div class="mt-8 hidden sm:hidden text-brand-gray">
+                        <h3 class="text-white text-xl font-serif mb-2">Bogers Legal BV</h3>
+                        <p>KvK 76706761</p>
+                        <p>Utrecht</p>
+
+                    </div>
+                </div>
+
+                <!-- Right Footer: Address (Desktop) & Disclaimer -->
+                <div class="hidden md:block fade-in-section" style="transition-delay: 200ms;">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-serif mb-1">Bogers Legal BV</h3>
+                        <p class="text-xl mb-1">KvK 76706761</p>
+                        <p class="text-xl">Utrecht</p>
+                    </div>
+                    <p class="mb-2 font-poppins text-base text-brand-gray">Bogers Legal maakt geen gebruik van een stichting beheer derdengelden en beschikt als zodanig niet over een derdengeldenrekening.</p>
+                                    <div class="flex gap-4">
+                    <!-- Placeholder Links for PDFs -->
+                    <a href="image/bogers-legal-algemene-voorwaarden-2020.pdf" class="underline font-poppins text-base text-brand-gray">Voorwaarden</a>
+                    <span class="font-poppins text-base text-brand-gray">-</span>
+                    <a href="image/bogers-legal-klachtenregeling.pdf" class="underline font-poppins text-base text-brand-gray">Klachtenregeling</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Disclaimer -->
+        <div class="sm:hidden border-t border-gray-800 pt-8 text-xs md:text-sm text-brand-gray flex flex-col md:flex-row justify-between gap-4 text-center md:text-left max-w-7xl mx-auto px-4 md:px-6">
+            <div class="max-w-2xl">
+                <p class="mb-2 font-poppins text-base text-brand-gray">Bogers Legal maakt geen gebruik van een stichting beheer derdengelden en beschikt als zodanig niet over een derdengeldenrekening.</p>
+            </div>
+            <div class="flex gap-4 justify-center md:justify-start">
+                <!-- Placeholder Links for PDFs -->
+                <a href="image/bogers-legal-algemene-voorwaarden-2020.pdf" class="hover:text-white underline font-poppins text-base text-brand-gray">Voorwaarden</a>
+                <span class="font-poppins text-base text-brand-gray">-</span>
+                <a href="image/bogers-legal-klachtenregeling.pdf" class="hover:text-white underline font-poppins text-base text-brand-gray">Klachtenregeling</a>
+                
+            </div>
+            <p class="mt-4 font-poppins text-base text-brand-gray">&copy; 2025 Bogers Legal</p>
+
+        </div>
+    </footer>
+
+    <!-- External JavaScript File -->
+    <script src="js/script.js"></script>
+</body>
+</html>
